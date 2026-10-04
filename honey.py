@@ -1050,11 +1050,11 @@ display:flex;align-items:center;gap:10px;margin-bottom:14px;box-shadow:0 0 20px 
 <div class="p">
 <div class="ph">🛡️ ANTI-DETECTION SHIELD</div>
 <div style="font-size:11px;line-height:1.9;margin-bottom:14px;color:var(--tx)">
-Isse enable karne ke baad:<br>
-• Scanners ko <b style="color:#00ff88">LOCKED fingerprint</b> dikhega — chahe aap config change karo<br>
-• Automated scanners detect honge aur <b style="color:#ff2255">5 min ban</b> honge<br>
-• Random timing jitter se fingerprinting confuse hogi<br>
-• Aggressive scanners ko <b style="color:var(--amber)">tarpit</b> treatment milega<br>
+After enabling this:<br>
+• Scanners will see the <b style="color:#00ff88">LOCKED fingerprint</b> — even if you change the config<br>
+• Automated scanners will be detected and receive a <b style="color:#ff2255">5 min ban</b><br>
+• Random timing jitter will confuse fingerprinting<br>
+• Aggressive scanners will get <b style="color:var(--amber)">tarpit</b> treatment<br>
 </div>
 
 <div style="display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap">
