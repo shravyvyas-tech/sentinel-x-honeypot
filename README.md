@@ -31,46 +31,46 @@
 The dashboard itself is protected by an authenticated login screen. After too many
 wrong attempts from the same IP, it locks out automatically (configurable).
 
-![Login screen](screenshots/01-login.png)
+![Login screen](01-login.png)
 
 ### 2. Live 3D attack globe
 Every connection — yours and attackers' — is geolocated and plotted on a rotating
 3D Earth in real time, along with a live telemetry feed and per-port hit counters.
 
-![Dashboard globe view](screenshots/02-dashboard-globe.png)
+![Dashboard globe view](02-dashboard-globe.png)
 
 ### 3. Threat radar + service listeners
 A radar-style sweep shows active sources at a glance, next to a live list of every
 emulated service and its port/protocol.
 
-![Threat radar and service listeners](screenshots/03-threat-radar.png)
+![Threat radar and service listeners](03-threat-radar.png)
 
 ### 4. Full searchable log viewer
 Every single packet/command an attacker sends is logged with timestamp, severity,
 source IP, port, raw data, and the reason it was flagged — filterable and
 downloadable.
 
-![Log viewer](screenshots/04-logs.png)
+![Log viewer](04-logs.png)
 
 ### 5. Port & service manager
 Turn any of the 14 emulated services on/off, change the port it listens on, and
 edit its banner — all from the browser, no code editing required.
 
-![Port and service management](screenshots/05-ports.png)
+![Port and service management](05-ports.png)
 
 ### 6. System configuration
 Control listen address, session timeout, alert thresholds, the Discord/Slack
 webhook, and admin-panel lockout settings — all live, no restart needed for most
 changes.
 
-![System configuration](screenshots/06-config.png)
+![System configuration](06-config.png)
 
 ### 7. Shield — anti-detection mode
 Locks your service fingerprints so scanners always see a consistent signature,
 adds random timing jitter, tarpits aggressive scanners, and auto-bans detected
 scanning tools.
 
-![Shield anti-detection panel](screenshots/07-shield.png)
+![Shield anti-detection panel](07-shield.png)
 
 ---
 
@@ -287,7 +287,7 @@ sx_data/                      # created automatically on first run — DO NOT CO
   ├─ events.jsonl             # full event/attack log
   ├─ shield.json              # shield/fingerprint lock state
   └─ GeoLite2-City.mmdb       # optional offline GeoIP database (you add this)
-screenshots/                  # README images
+01-login.png … 07-shield.png   # README screenshots
 .gitignore                    # excludes sx_data/ from version control
 README.md                     # this file
 ```
