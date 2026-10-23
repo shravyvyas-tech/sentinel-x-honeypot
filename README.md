@@ -202,8 +202,8 @@ You need **Python 3.8 or newer**.
 ### Step 2 — Get the code
 **Option A — clone with Git:**
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/shravvyas-tech/sentinel-x-honeypot.git
+cd sentinel-x-honeypot
 ```
 **Option B — download ZIP:**
 Click the green **Code → Download ZIP** button on the GitHub repo page, extract
