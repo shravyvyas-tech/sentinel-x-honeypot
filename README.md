@@ -353,8 +353,7 @@ from its use.
 ## 📄 License
 
 This project is licensed under the **MIT License** — see [`LICENSE`](LICENSE)
-for details. *(Replace with your preferred license before publishing if MIT
-doesn't fit your needs.)*
+for details. 
 
 ---
 
